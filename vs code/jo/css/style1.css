@@ -1,0 +1,25 @@
+
+.bg{
+    background-image: url("../media/cat.jpg");
+    background-size: cover ;
+    background-position: center;
+    height: 100vh;
+    color:red;
+    font-weight: bolder;
+   
+}
+.menu{
+    display:flex;
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    background: linear-gradient(to right);
+    color:white;
+
+}
+#menuheading{
+    display: flex;
+    justify-content:center;
+}  
+
+   
+ 

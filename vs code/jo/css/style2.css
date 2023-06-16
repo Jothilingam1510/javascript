@@ -1,0 +1,10 @@
+
+.bg{
+    background-image: url("../media/nature.jpg");
+    background-size: cover ;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-weight: bolder;
+    }
+

@@ -1,0 +1,9 @@
+
+.bg{
+    background-image: url("../media/water.jpg");
+    background-size: cover ;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-weight: bolder;
+    }
