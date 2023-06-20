@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+li{
+    list-style: none;
+}
+
+
+html,body{
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+.row{
+    margin: 0 -8px;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col{
+    float: left;
+    padding: 0 8px;
+
+}
+
+.col-third{
+    width: calc(100%/3);
+}
+
+.col-half{
+    width: 50%;   
+}
+
+.col-full{
+    width: 100%;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+
+#header{
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    height: 46px;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav{
+    display: inline-block;
+    
+}
+
+.nav li{
+    display: inline-block;
+    position: relative;
+}
+
+.nav li:hover .subnav{
+    display: block ;
+}
+
+.nav li:hover a{
+    background-color: #ccc;
+    color: #000;
+}
+.nav li a{
+    color: #fff;
+    line-height: 46px;
+    padding: 0 24px;
+    text-decoration: none;
+    text-transform: uppercase ;
+    display: block;
+}
+
+.nav .subnav{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    min-width: 160px;
+    color: #000;
+    box-shadow: 3px 5px 10px 3px rgba(0,0,0,0.4);
+    
+}
+
+.nav .subnav li{
+    display: block;
+    padding: 8px 16px
+}
+
+.nav .subnav li:hover{
+    background-color: #ccc;
+}
+.title{
+    text-align:center;
+}
+.para{
+    font-size: larger
+}
+.pic{
+    display:flex;
+    border: 20px;
+  
+}
+.box{
+    padding: 40px;
+    color: white;
+  
+
+}
+.name{
+    text-align:center;
+}
+.tour{
+    background-color: black;
+    height: 700px;
+    width:auto;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h4{
+    font-size: small;
+}
+.table{
+    text-align: left;
+    color: #000;
+    border-bottom: 1px solid;
+    padding: 7px 16px;
+    background-color:white
+}
+.soldout{
+    background-color: #f44336;
+    color: #fff;
+    margin-left: 16px;
+    padding: 2.5px 8px;
+}
+.soldouts{
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000;
+    float: right;
+    margin-right: 16px;
+}
+.country{
+    display: flex;
+    background-color: black;
+    height: 300px;
+    
+}
+.italy{
+    color:black
+
+}
+.contact{
+    color:black;
+    text-align:right;
+}
